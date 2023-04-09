@@ -1,0 +1,28 @@
+.security {
+  &__content {
+    display: flex;
+    align-items: center;
+    padding: 194px 0;
+    justify-content: space-between;
+  }
+
+  &__info {
+    max-width: 889px;
+
+    h2 {
+      font-family: "Inter";
+      font-weight: 700;
+      font-size: 43px;
+      text-transform: uppercase;
+      color: #333333;
+    }
+
+    p {
+      font-family: "Montserrat";
+      font-weight: 500;
+      font-size: 21px;
+      color: #333333;
+      line-height: 160%;
+    }
+  }
+}

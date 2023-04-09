@@ -1,0 +1,36 @@
+.about {
+  padding-top: 69px;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h2 {
+      font-family: "Inter";
+      font-weight: 700;
+      font-size: 57px;
+      text-align: right;
+      text-transform: uppercase;
+      color: #333333;
+    }
+
+    h3 {
+      text-transform: uppercase;
+      font-size: 57px;
+      text-align: right;
+      font-weight: 700;
+      margin-bottom: 108px;
+    }
+
+    p {
+      font-family: "Montserrat";
+      font-weight: 500;
+      font-size: 21px;
+      color: #333333;
+      max-width: 536px;
+      margin-left: auto;
+      margin-bottom: 38px;
+    }
+  }
+}
