@@ -7,7 +7,18 @@
     justify-content: space-between;
 
     img {
-        max-width: 100%;
+      max-width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .sample {
+    &__content {
+      overflow-y: scroll;
+      img {
+        max-width: none;
+      }
     }
   }
 }

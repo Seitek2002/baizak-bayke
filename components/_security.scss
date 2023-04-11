@@ -26,3 +26,62 @@
     }
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .security {
+    &__info {
+      max-width: 50%;
+    }
+    &__img {
+      width: 45%;
+
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 966px) {
+  .security {
+    &__content {
+      flex-direction: column;
+    }
+    &__info {
+      max-width: none;
+    }
+    &__img {
+      width: auto;
+
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 636px) {
+  .security {
+    &__info {
+      h2 {
+        font-size: 30px;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .security {
+    &__info {
+      h2 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+}
